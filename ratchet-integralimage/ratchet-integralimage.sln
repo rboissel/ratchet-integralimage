@@ -5,6 +5,15 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ratchet-integralimage", "ratchet-integralimage\ratchet-integralimage.csproj", "{571F9BD1-2B00-40BB-A0D1-D35C755001CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{C2AAA933-16A4-45CB-B97F-3C816AD5F46C}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Ratchet.Math.IntegralImage.nuspec = Build\Ratchet.Math.IntegralImage.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ratchet-integralimage-net40", "Build\ratchet-integralimage-net40\ratchet-integralimage-net40.csproj", "{673E87E5-D57E-4471-A988-320C77523495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ratchet-integralimage-net45", "Build\ratchet-integralimage-net45\ratchet-integralimage-net45.csproj", "{4BA44DF3-8637-435A-8F7A-01BC0D66B829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +24,21 @@ Global
 		{571F9BD1-2B00-40BB-A0D1-D35C755001CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{571F9BD1-2B00-40BB-A0D1-D35C755001CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571F9BD1-2B00-40BB-A0D1-D35C755001CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673E87E5-D57E-4471-A988-320C77523495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673E87E5-D57E-4471-A988-320C77523495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673E87E5-D57E-4471-A988-320C77523495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673E87E5-D57E-4471-A988-320C77523495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA44DF3-8637-435A-8F7A-01BC0D66B829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA44DF3-8637-435A-8F7A-01BC0D66B829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA44DF3-8637-435A-8F7A-01BC0D66B829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA44DF3-8637-435A-8F7A-01BC0D66B829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{673E87E5-D57E-4471-A988-320C77523495} = {C2AAA933-16A4-45CB-B97F-3C816AD5F46C}
+		{4BA44DF3-8637-435A-8F7A-01BC0D66B829} = {C2AAA933-16A4-45CB-B97F-3C816AD5F46C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90E778B9-B4AF-4AEB-80C3-7C0094326A5B}
